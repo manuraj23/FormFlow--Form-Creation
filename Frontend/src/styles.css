@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cdk-drop-list-dragging:not(.elements-menu){
+    border:2px solid lightgray !important;
+    background-color: lightgray !important;
+}
