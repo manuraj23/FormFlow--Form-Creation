@@ -23,6 +23,7 @@ public class FormResponse {
     private Long formId;
 
     @JdbcTypeCode(SqlTypes.JSON)
+
     @Column(columnDefinition = "jsonb")
     private Map<String, Object> response;
 
